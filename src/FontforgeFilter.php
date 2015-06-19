@@ -12,6 +12,10 @@ use Assetic\Exception\FilterException;
  */
 class FontforgeFilter extends BaseProcessFilter
 {
+    const FORMAT_TTF = 'ttf';
+    const FORMAT_OTF = 'otf';
+    const FORMAT_WOFF = 'woff';
+    const FORMAT_SVG = 'svg';
 
     private $fontforgeBin;
 
