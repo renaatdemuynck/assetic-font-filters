@@ -1,0 +1,11 @@
+{
+    "name": "renaatdemuynck/assetic-font-filters",
+    "description": "Assetic filters for processing fonts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renaat De Muynck",
+            "email": "renaat.demuynck@gmail.com"
+        }
+    ]
+}
