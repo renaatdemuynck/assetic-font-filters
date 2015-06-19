@@ -22,7 +22,7 @@ class FontforgeFilter extends BaseProcessFilter
      *
      * @param string $fontforgeBin Path to the Fontforge binary
      */
-    public function __construct($fontforgeBin)
+    public function __construct($fontforgeBin = '/usr/bin/fontforge')
     {
         $this->fontforgeBin = $fontforgeBin;
     }
