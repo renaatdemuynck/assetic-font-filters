@@ -19,7 +19,7 @@ class FontforgeFilter extends BaseProcessFilter
 
     private $fontforgeBin;
 
-    private $format = self::FORMAT_TTF;
+    private $format = self::FORMAT_WOFF;
 
     /**
      * Constructor.
